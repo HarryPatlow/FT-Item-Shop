@@ -1,0 +1,179 @@
+#fort-btn {
+    text-align: right; 
+    background-color: #080096; 
+    float: right; 
+    padding: 2px 10px 2px 10px; 
+    border: solid;
+    border-width: 5px 7px 5px 7px; 
+    border-color: #064CD8;
+    color: #00D5FD; 
+    margin-top: 7px;
+}
+
+
+#fort-btn-2 {
+    text-align: right; 
+    background-color: white; 
+    padding: 4px 14px 3px 14px; 
+    color: #080096; 
+    margin: 7px;
+    font-family: fortnite;
+    font-size: 30px;
+    transform: skew(-5deg);
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: fortnite;
+    src:url("fonts/fortnite.otf")
+}
+
+.container {
+    padding: 150px 70px 150px 70px;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+
+
+.card {
+    height: 355px;
+    width: 275px;
+    border: none;
+    background-color: rgb(0,250,247);
+    margin-right: 10px;
+    border-radius: 0;
+}
+.card:hover{
+    transform: scale(1.01);
+}
+
+#fort-btn-3{
+    text-align: right; 
+    padding: 4px 14px 3px 14px; 
+    color: white; 
+    background-color: unset;
+    margin: 7px;
+    font-family: fortnite;
+    font-size: 30px;
+    transform: skew(-5deg);
+    border: none;
+}
+
+
+
+.buy {
+    font-family: fortnite;
+    background-color: unset;
+    border: none;
+    font-size: 80px;
+    position: absolute;
+    top: 270px;
+    left: 220px;
+    color: white;
+}
+
+.thumbnail {
+    width: 275px;
+    height: 350px;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 97%, 0% 100%);
+}
+.card-body {
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter:blur;
+    color: white;
+    font-family: fortnite;
+    border: none;
+    height: 130px;
+}
+
+.card-title {
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 0px 25%;
+    text-transform: uppercase;
+}
+.cost { 
+    float: right;
+    font-family: var(--bs-body-font-family);
+    color: #A6B6BB;
+}
+
+.container {
+     overflow: auto;
+}
+.col {
+    margin-right: 10px; 
+}
+
+.buy:hover{
+    transform: scale(1.08);
+}
+
+#card-sm {
+    height: 170px;
+    width: 275px;
+    border: none;
+    background-color: rgb(0,250,247);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#thumbnail-sm {
+    width: 100%;
+    height: 171px;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 97%, 0% 100%);
+}
+#card-body-sm {
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur;
+    color: white;
+    font-family: fortnite;
+    border: none;
+    height: 63px;
+}
+
+
+#buy-sm-up {
+    font-family: fortnite;
+    background-color: unset;
+    border: none;
+    font-size: 80px;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    color: white;
+}
+
+.card-title-sm {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 0px 27%;
+    padding-bottom: -100px;
+    text-transform: uppercase;
+}
+#cost-sm {
+    transform: scale(0.8);
+    margin-top: -27px;
+}
+
+h1 {
+    font-family: fortnite;
+    color: white;
+
+}
