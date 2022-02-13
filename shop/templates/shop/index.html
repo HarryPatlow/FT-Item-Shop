@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?{% now 'U' %}">
 
     <style>
       .hdbg {
@@ -45,6 +45,8 @@
           transform: scale(0.8);
           margin-top: -27px;
       }
+
+      
 
     </style>
     <script src="{% static 'js/script.js' %}"></script>
@@ -188,10 +190,40 @@
         </div>
       </div>
 
-      <div class="invent">
-        <div class="invent-section">
-          <h1>SKIN</h1>
+      <div class="invent" style="display: none; height: 790px;">
+        <div class="container" style="width: 100%;">
+          <div style="display: inline-flex;">
+            <div class="col invent-section card">
+              <h1>SKINS</h1>
+            </div>
+            <div class="col invent-section card">
+              <h1>GLIDERS</h1>
+            </div>
+            <div class="col invent-section card">
+              <h1>HARVESTERS</h1>
+            </div>
+            <div class="col invent-section card">
+              <h1>BACKPACKS</h1>
+
+            </div>
+          </div>
+          <div style="display: inline-flex;">
+            <div class="col invent-section card">
+              <h1>SCREENS</h1>
+            </div>
+            <div class="col invent-section card">
+              <h1>EMOTES</h1>
+            </div>
+            <div class="col invent-section card">
+              <h1>DANCES</h1>
+            </div>
+            <div class="col invent-section card">
+              <h1>WRAPS</h1>
+            </div>
+          </div>
         </div>
+      </div>
+        
       </div>
 
       <div class="vbucks">

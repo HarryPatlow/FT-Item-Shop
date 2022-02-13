@@ -17,6 +17,7 @@ rarity_types = (
 type = (
     ('wrap','Wrap'),
     ('emote','Emote'),
+    ('dance','Dance'),
     ('tool','Harvesting Tool'),
     ('glider','Glider'),
     ('music','Music'),
