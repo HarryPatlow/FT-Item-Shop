@@ -1,12 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var shop = document.querySelector('.shop')
-    var invent = document.querySelector('.invent')
-    var vbucks = document.querySelector('.vbucks')
-    var add = document.querySelector('.add')
-    var shop_btn = document.querySelector('.shop-btn')
-    var invent_btn = document.querySelector('.invent-btn')
-    var vbucks_btn = document.querySelector('.vbucks-btn')
-    var add_btn = document.querySelector('.add-btn')
+
+    //HOMEPAGE TABS
+
+    var shop = document.querySelector('.shop'),
+        invent = document.querySelector('.invent'),
+        vbucks = document.querySelector('.vbucks'),
+        add = document.querySelector('.add'),
+        shop_btn = document.querySelector('.shop-btn'),
+        invent_btn = document.querySelector('.invent-btn'),
+        vbucks_btn = document.querySelector('.vbucks-btn'),
+        add_btn = document.querySelector('.add-btn')
+
 
     document.querySelector('.shop-btn').onclick = () => {
         shop.style.display = ""
@@ -51,4 +55,128 @@ document.addEventListener('DOMContentLoaded', function() {
         add.style.display = ""
         add_btn.id = 'fort-btn-2'
     }
+
+
+    //TABS INSIDE INVENTORY TAB
+
+
+    var skin = document.querySelector('#skin'),
+        glider = document.querySelector('#glider'),
+        pickaxe = document.querySelector('#tool'),
+        bag = document.querySelector('#bag'),
+        screen = document.querySelector('#screen'),
+        emote = document.querySelector('#emote'),
+        dance = document.querySelector('#dance'),
+        wrap = document.querySelector('#wrap'),
+        main = document.querySelector('#main'),
+        back_btns = document.querySelectorAll('.back')
+    
+        document.querySelector('.skin').onclick = () => {
+            skin.style.display = "inline-block"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+    
+        document.querySelector('.glider').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'inline-block'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+    
+        document.querySelector('.tool').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "inline-block"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+    
+        document.querySelector('.bag').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'inline-block'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+
+        document.querySelector('.screen').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "inline-block"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+    
+        document.querySelector('.emote').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'inline-block'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+    
+        document.querySelector('.dance').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "inline-block"
+            wrap.style.display = 'none'
+            main.style.display = 'none'
+        }
+    
+        document.querySelector('.wrap').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'inline-block'
+            main.style.display = 'none'
+        }
+
+        document.querySelector('.back').onclick = () => {
+            skin.style.display = "none"
+            glider.style.display = 'none'
+            pickaxe.style.display = "none"
+            bag.style.display = 'none'
+            screen.style.display = "none"
+            emote.style.display = 'none'
+            dance.style.display = "none"
+            wrap.style.display = 'none'
+            main.style.display = 'inline-block'
+        }
+    
 })

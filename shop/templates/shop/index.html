@@ -49,7 +49,7 @@
       
 
     </style>
-    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/script.js' %}?{% now 'U' %}"></script>
     
     </head>
     <body style="background-color: rgb(16, 128, 202); overflow-x: hidden;">
@@ -191,38 +191,64 @@
       </div>
 
       <div class="invent" style="display: none; height: 790px;">
-        <div class="container" style="width: 100%;">
-          <div style="display: inline-flex;">
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/skin.png' %}">
+        <div id="main">
+          <div class="container" style="width: 100%;">
+            <div style="display: inline-flex;">
+              <div class="col invent-section card skin">
+                <img class = "icon skin" src="{% static 'imgs/icons/skin.png' %}">
+              </div>
+              <div class="col invent-section card glider">
+                <img class = "icon glider" src="{% static 'imgs/icons/glider.png' %}">
+              </div>
+              <div class="col invent-section card tool">
+                <img class = "icon tool" src="{% static 'imgs/icons/axe.png' %}">
+              </div>
+              <div class="col invent-section card bag">
+                <img class = "icon bag" src="{% static 'imgs/icons/backpack.png' %}">
+              </div>
             </div>
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/glider.png' %}">
-            </div>
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/axe.png' %}">
-            </div>
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/backpack.png' %}">
-            </div>
-          </div>
-          <div style="display: inline-flex;">
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/loading.png' %}">
-            </div>
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/emote.png' %}">
-            </div>
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/dance.png' %}">
-            </div>
-            <div class="col invent-section card">
-              <img class = "icon skin" src="{% static 'imgs/icons/wrap.png' %}">
+            <div style="display: inline-flex;">
+              <div class="col invent-section card screen">
+                <img class = "icon screen" src="{% static 'imgs/icons/loading.png' %}">
+              </div>
+              <div class="col invent-section card emote">
+                <img class = "icon emote" src="{% static 'imgs/icons/emote.png' %}">
+              </div>
+              <div class="col invent-section card dance">
+                <img class = "icon dance" src="{% static 'imgs/icons/dance.png' %}">
+              </div>
+              <div class="col invent-section card wrap">
+                <img class = "icon wrap" src="{% static 'imgs/icons/wrap.png' %}">
+              </div>
             </div>
           </div>
         </div>
-      </div>
-        
+        </div>
+
+        <div id="skin">
+            <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="glider">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="tool">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="bag">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="screen">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="emote">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="dance">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
+        <div id="wrap">
+          <button class="back" id="fort-btn-2">Back</button>
+        </div>
       </div>
 
       <div class="vbucks">
